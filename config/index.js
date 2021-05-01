@@ -3,8 +3,7 @@ module.exports = {
   author: "@moondocmd",
   siteTitle: "Mike Mooney - Software Enthusiast",
   siteShortTitle: "MM.", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "Mike Mooney's Portfolio Site.",
+  siteDescription: "Mike Mooney's Portfolio Site.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -66,8 +65,7 @@ module.exports = {
     },
     {
       name: "Github",
-      url:
-        "https://github.com/moondocmd",
+      url: "https://github.com/moondocmd",
     },
     // {
     //   name: "Behance",
@@ -103,13 +101,13 @@ module.exports = {
     },
   },
   footerLinks: [
-    {
-      name: "Privacy",
-      url: "/privacy",
-    },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Privacy",
+    //   url: "/privacy",
+    // },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 }
