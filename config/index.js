@@ -1,14 +1,14 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@moondocmd",
+  siteTitle: "Mike Mooney - Software Enthusiast",
+  siteShortTitle: "MM.", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "Mike Mooney's Portfolio Site.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Michael Mooney", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
@@ -20,7 +20,7 @@ module.exports = {
       tertiary: "#F2F2F2",
       text: "#000000",
       subtext: "#555555",
-      background: "#FFFFFF",
+      background: "#e9f3f7",
       card: "#FFFFFF",
       scrollBar: "rgba(0, 0, 0, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
@@ -58,21 +58,21 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/michaeldmooney/",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "Mail",
+      url: "mailto:michaeldennismooney@gmail.com",
     },
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/moondocmd",
     },
-    {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
-    },
+    // {
+    //   name: "Behance",
+    //   url: "https://www.behance.net/konstanmnster",
+    // },
     // {
     //   name: "Mail",
     //   url: "mailto:mail@konstantin.digital",
@@ -87,7 +87,7 @@ module.exports = {
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
       {
@@ -96,20 +96,20 @@ module.exports = {
       },
     ],
     button: {
-      useFileName: true,
+      useFileName: false,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
-      url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
+      fileName: "Mooney_Resume_Full.pdf", // the file has to be placed inside the static folder at the root level
+      url: "https://drive.google.com/file/d/1iTSsg9mMJYp1q2gVKkBY0eM1E2kgUTtC/view?usp=sharing", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
-    {
-      name: "Privacy",
-      url: "/privacy",
-    },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Privacy",
+    //   url: "/privacy",
+    // },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 }
